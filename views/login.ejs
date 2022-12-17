@@ -1,0 +1,28 @@
+<%-include('partials/heade.ejs')%>
+
+<body>
+
+    <div class="principal">
+        <div class="container">
+            <br>
+            <div class="title text-center logo_title">
+                <img src="/img/ingame_logo.png" width="130px" alt="">
+            </div>
+            <br>
+            <div class="form">
+                <div class="form-config">
+                    <form action="/logazo" method="post">
+                        <label for="">Digite seu email</label>
+                        <div><input type="email" class="btn btn-light" name="" id="" placeholder="Digite seu email"></div><br>
+                        <label for="">Digite sua senha</label>
+                        <div><input type="password" class="btn btn-light" name="" id="" placeholder="Digite sua senha"></div>
+                        <p><a href="/cadastro">Criar conta</a></p>
+                        <div><input type="submit" class="btn btn-success" name="" id="" value="Login"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<%-include('partials/footer.ejs')%>
