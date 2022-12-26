@@ -63,9 +63,8 @@ app.post('/cadastro-usuario', (req, res)=>{
 })
 
 //Rota Logar com sucesso
-app.post('/logazo', (req, res)=>{
-
-    res.redirect('/main')
+app.post('/main', (req, res)=>{
+    res.render('page/main')
    
 })    
 
